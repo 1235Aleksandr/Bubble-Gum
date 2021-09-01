@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: black;
+    background: url(img/bg.png);
+}
+
+.page{
+    width: 1024px;
+    margin: 20px auto;
+    background-color: rgb(134, 85, 29);
+}
+
+
+
+/*header*/
+.header{
+    padding: 20px;
+    background-color: black;
+}
+.header-title {
+    margin: 0;
+    font-size: 24px;
+    color: wheat;
+    text-align: center;
+}
+.header-subtitle{
+    margin: 0;
+    font-size: 16px;
+    color: rgb(118, 127, 206);
+    text-align: center;
+    font-weight: 500;
+}
+
+
+/*nav*/
+.nav{
+    text-align: center;
+
+}
+
+.nav-link{
+    display: inline-block;
+    padding: 8px 13px;
+    text-decoration: none;
+    color: black;
+}
+.nav-link:hover{
+    background-color: rgb(226, 216, 216);
+
+}
+
+/*content*/
+.content{
+    padding: 20px;
+}
+
+.content-title{
+    margin: 0 0 15px;
+    font-size: 24px;
+    color: black;
+}
+.content-text{
+    margin-bottom: 20px;
+}
+.read-more{
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+}
+.read-more:hover{
+    text-decoration: underline;
+}
+
+/*News*/
+.News{
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid gray;
+}
+.News-title{
+    margin: 0 0 5px;
+
+    font-size: 18px;
+    color: blue;
+}
+.News-title a{
+    color: inherit;
+    text-decoration: none;
+}
+.News-title a:hover{
+    text-decoration: underline;
+}
+.News-date{
+    font-size: 15px;
+    color: gray;
+}
+
+/*footer*/
+.footer{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/*form*/
+.form{
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+
+    background-color: rgb(253, 251, 251);
+}
+.form-group{
+    margin-bottom: 15px;
+
+    font-family: Arial, sans-serif;
+}
+.form-textarea{
+    width: 200px;
+    height: 150px;
+    padding: 5px;
+
+    margin-bottom: 15px;
+}
+
+/*link*/
+.link{
+    color: aqua;
+    text-decoration: none;
+
+}
+.link:visited{
+    color: blueviolet;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.btn{
+    padding: 5px 10px;
+    background-color: chartreuse;
+    border: 1px solid ;
+}
+.btn:decrement{
+    background-color: gray;
+    color: black;
+    border: 1px solid;
+    cursor: not-allowed;
+}
+.btn:hover{
+    background-color:rgb(105, 192, 17);
+    cursor: pointer;
+}
+
+/*modal*/
+.modal{
+    width: 500px;
+    height: 200px;
+    margin: 20px auto;
+    position: relative;
+
+    padding: 15px;
+    background-color: gray;
+}
+.modal-title{
+    margin: 0;
+}
+/*square*/
+.square{
+    width: 50px;
+    height: 50px;
+
+    background-color: black;
+
+    position: absolute;
+    top: -10px;
+    right: -10px;
+
+}

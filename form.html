@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Работа с формами</title>
+    </head>
+    <body>
+
+        <div class="form">
+            <h1 class="title">Контактная информация</h1>
+             <a class="link" href="index.html">Ссылка</a>
+            <form action="/" method="POST">
+                <div class="form-group">
+                    <input class="form-group" type="text" name="name"
+                    placeholder="Ваше имя">
+                </div>
+
+                <div class="form-group">
+                    <input class="form-group" type="email" name="email"
+                    placeholder="Ваш email">
+                </div>
+
+                <div class="form-group">
+                    <input class="form-group" type="tel" name="tel"
+                    placeholder="Ваш телефон">
+                </div>
+
+                <div class="form-group">
+                    <input class="form-group" type="password" name="Пароль"
+                    placeholder="Придумайте Пароль">
+                </div>
+
+                <div class="form-textarea">
+                    <textarea class="form-textarea" name="text" placeholder="О вас"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <select name="city">
+                        <option>Рига</option>
+                        <option>Тунис</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Муж</label>
+                    <input type="radio" name="choose_male" id="male">
+
+                    <label for="">Жен</label>
+                    <input type="radio" name="choose_male" id="female">
+                </div>
+
+                <div class="form-group">
+                    <input type="checkbox" id="rules_agree">
+                    <label for="rules_agree">Прочитал условие и согласен с ними</label>
+                </div>
+
+                <button class="btn" type="submit" disabled>Отправить</button>
+                <button class="btn" type="reset">Очистить</button>
+                <button type="button">Кнопка</button>
+            </form>
+        </div>
+    </body>

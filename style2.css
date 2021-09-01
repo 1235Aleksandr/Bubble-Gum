@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+
+    background-color: white;
+}
+.composition{
+    width: 1200px;
+    height: 900px;
+    margin: 20px auto;
+    position: relative;
+
+    background-color: white;
+}
+.road{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+.car{
+    position: absolute;
+    right: 30px;
+    bottom: 150px;
+    z-index: 3;
+}
+.tree{
+    position: absolute;
+    right: 50px;
+    bottom: 80px;
+    z-index: 2;
+}
+.cloud{
+    position: absolute;
+    top: ;
+}
